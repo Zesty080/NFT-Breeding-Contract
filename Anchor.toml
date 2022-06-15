@@ -1,0 +1,14 @@
+[programs.localnet]
+nft_breed = "5RYcKgfCqf2N2yAp1HTu2k3URtmNxwkwjgVeULtKdRoU"
+[programs.devnet]
+nft_breed = "5RYcKgfCqf2N2yAp1HTu2k3URtmNxwkwjgVeULtKdRoU"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/wstar/.config/solana/id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
